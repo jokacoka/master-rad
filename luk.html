@@ -13,10 +13,20 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <h1>Дужина лука криве</h1>
     </header>
     <main>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-item"><a href="teorija.html">Одређени интеграл</a></li>
+                <li class="nav-item"><a href="kvadratura.html">Површина фигуре у равни - квадратура</a></li>
+                <li class="nav-item"><a href="luk.html">Дужина лука криве</a></li>
+                <li class="nav-item"><a href="kubatura.html">Запремина обртних тела</a></li>
+                <li class="nav-item"><a href="parametarskipolarni.html">Фигуре у параметарском и поларном облику</a>
+                </li>
+            </ul>
+        </nav>
         <section class="example">
             <h2>Задатак 1: Израчунати дужину лука криве y=\frac{2}{3}x^{3/2} од координатног почетка до тачке
                 \left(8,\frac{32\sqrt2}{3}\right).</h2>
@@ -78,5 +88,10 @@
 
     </main>
 </body>
+<script>
+    window.onload = function () {
+        document.getElementById("header").focus();
+    };
+</script>
 
 </html>
