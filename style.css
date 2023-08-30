@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.lesson {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.lesson h2 {
+    margin-top: 0;
+}
+
+.grey-text {
+    color: #888;
+}
+
+
+.slika {
+    text-align: center;
+}
+
+.centered-figure {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+    background-color: #007BFF;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
+.nav-item:hover a {
+    color: #007BFF;
+}
+
+.logo img {
+    width: 175px;
+    vertical-align: middle;
+}
