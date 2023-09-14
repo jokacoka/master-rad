@@ -19,6 +19,7 @@
     <main>
         <nav class="navbar">
             <ul class="nav-links">
+                <li class="nav-item"><a href="pocetna.html">Почетна</a></li>
                 <li class="nav-item"><a href="teorija.html">Одређени интеграл</a></li>
                 <li class="nav-item"><a href="kvadratura.html">Површина фигуре у равни - квадратура</a></li>
                 <li class="nav-item"><a href="luk.html">Дужина лука криве</a></li>
@@ -32,7 +33,7 @@
                 око осе Ox.
             </h2>
             <p><strong>Решење:</strong> Параметарске једначине астроиде имају облик \[x=a\cos^3t;y=a\sin^3t; \left(0\le
-                t\le2\pi\right)\], тада је \[dl=3a\left|sin\ tcos\ t\right|dt.\] Узимајући у обзир симетричност криве у
+                t\le2\pi\right),\] тада је \[dl=3a\left|sin\ tcos\ t\right|dt.\] Узимајући у обзир симетричност криве у
                 односу на обе координатне осе, имамо:</p>
             <p>\[\begin{matrix}P&=4\pi\int_{0}^{\frac{\pi}{2}}y\left(t\right)dl\left(t\right)=12\pi
                 a^2\int_{0}^{\frac{\pi}{2}}\sin^4td\left(sin\ t\right)=\left.\ \frac{12}{5}\pi
@@ -50,8 +51,8 @@
             <h2>Задатак 2. Наћи површину фигуре ограничене кривама које су дате параметарски \[x=2t-t^2,\ \
                 y=2t^2-t^3.\]
             </h2>
-            <p><strong>Решење:</strong> Крива сама себе сече у координатном почетку: x=0 za t=0 i t=2; y=0, такође за
-                t=0 и t=2. За израчунавање површине користићемо формулу:</p>
+            <p><strong>Решење:</strong> Крива сама себе сече у координатном почетку: `x=0` za `t=0` i `t=2; y=0`, такође за
+                `t=0` и `t=2`. За израчунавање површине користићемо формулу:</p>
             <p>\[\begin{matrix}S&=\frac{1}{2}\int_{0}^{2}\left(x\left(t\right)y^\prime\left(t\right)-y\left(t\right)x^\prime\left(t\right)\right)dt=\frac{1}{2}\int_{0}^{2}\left(t^4-4t^3+4t^2\right)dt=\left.\
                 \frac{1}{2}\left(\frac{t^5}{5}-t^4+\frac{4}{3}t^3\right)\right|_0^2=4\left(\frac{4}{3}-2+\frac{4}{5}\right)=\frac{8}{15}.\\&\\\end{matrix}\].
             <div class="image-container">
@@ -66,13 +67,13 @@
                 \[x=a\left(2cos\ t-\cos{2t}\right);y=a\left(2sin\ t-\sin{2t}\right).\]
             </h2>
             <p><strong>Решење:</strong> Фигура је ограничена и затворена
-                \[\left(x\left(0\right)=x\left(2\pi\right);y\left(0\right)=y\left(2\pi\right)\right)\], следи:</p>
+                \[\left(x\left(0\right)=x\left(2\pi\right);y\left(0\right)=y\left(2\pi\right)\right),\] следи:</p>
             <p>\[\begin{matrix}P&=4\pi\int_{0}^{\frac{\pi}{2}}y\left(t\right)dl\left(t\right)=12\pi
                 a^2\int_{0}^{\frac{\pi}{2}}\sin^4td\left(sin\ t\right)=\left.\ \frac{12}{5}\pi
-                a^2\sin^5t\right|_0^{\frac{\pi}{2}}=\frac{12}{5}\pi a^2\\&\\\end{matrix}.\].
+                a^2\sin^5t\right|_0^{\frac{\pi}{2}}=\frac{12}{5}\pi a^2\\&\\\end{matrix}.\]
             <div class="image-container">
                 <figure class="slika">
-                    <iframe src="https://www.geogebra.org/classic/qcukgndk?embed" width="800" height="600"
+                    <iframe src="https://www.geogebra.org/classic/qcukgndk" width="800" height="600"
                         allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
                     <figcaption>Фигура која настаје ротацијом астроидае око Ox осе </figcaption>
                 </figure>
@@ -83,7 +84,7 @@
             <h2>Задатак 4. Наћи дужину лука криве задату параметарски \[x=a\left(t-sin\
                 t\right);y=a\left(1-\cos{t}\right), 0\le t\le2\pi.\]</h2>
 
-            <p><strong>Решење:</strong> Примењујемо формулу 1^0 , самим тим рачунамо
+            <p><strong>Решење:</strong> Примењујемо формулу за дужину лика криве задате параметирски , самим тим рачунамо
                 \[x^\prime\left(t\right)=a\left(1-cos\ t\right),\
                 \mathcal{V}^\prime\left(t\right)=asint;\ x^{\prime2}\left(t\right)+y^2\left(t\right)=2a^2\left(1-cos\
                 t\right)=4a^2\sin^2\frac{t}{2}
@@ -92,7 +93,7 @@
             <p> \[L=2a\int_{0}^{2\pi}sin\frac{t}{2}dt=4a\int_{0}^{a}sin\ zdz=\left.\ 4acos\ z\right|_\pi^0=8a.\]
             <div class="image-container">
                 <figure class="slika">
-                    <iframe src="https://www.geogebra.org/classic/kmg4vk5y?embed" width="800" height="600"
+                    <iframe src="https://www.geogebra.org/classic/kmg4vk5y" width="800" height="600"
                         allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
                     <figcaption> Дужина лука криве задате параметарски </figcaption>
                 </figure>
@@ -102,14 +103,14 @@
             <h2>Задатак 5. Наћи дужину лука криве задату параметарски \[x=a\left(t-sin\
                 t\right);y=a\left(1-\cos{t}\right), 0\le t\le2\pi.\]</h2>
 
-            <p><strong>Решење:</strong> Примењујемо формулу 1^0 , самим тим рачунамо
+            <p><strong>Решење:</strong> Примењујемо формулу за дужину лика криве задате параметирски, самим тим рачунамо
                 \[4x^\prime\left(t\right)=atcost;y^\prime\left(t\right)=atsint;
                 x^{\prime2}\left(t\right)+y^{\prime2}\left(t\right)=a^2t^2:\]</p>
 
             <p> \[L=a\int_{0}^{2\pi}tdt=\left.\ \frac{at^2}{2}\right|_0^{2\pi}=2\pi^2a.\]
             <div class="image-container">
                 <figure class="slika">
-                    <iframe src="https://www.geogebra.org/classic/p5fvd2tq?embed" width="800" height="600"
+                    <iframe src="https://www.geogebra.org/classic/p5fvd2tq" width="800" height="600"
                         allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
                     <figcaption> Дужину лука криве задату параметарски\ </figcaption>
                 </figure>

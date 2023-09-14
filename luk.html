@@ -19,6 +19,7 @@
     <main>
         <nav class="navbar">
             <ul class="nav-links">
+                <li class="nav-item"><a href="pocetna.html">Почетна</a></li>
                 <li class="nav-item"><a href="teorija.html">Одређени интеграл</a></li>
                 <li class="nav-item"><a href="kvadratura.html">Површина фигуре у равни - квадратура</a></li>
                 <li class="nav-item"><a href="luk.html">Дужина лука криве</a></li>
@@ -28,12 +29,12 @@
             </ul>
         </nav>
         <section class="example">
-            <h2>Задатак 1: Израчунати дужину лука криве y=\frac{2}{3}x^{3/2} од координатног почетка до тачке
-                \left(8,\frac{32\sqrt2}{3}\right).</h2>
+            <h2>Задатак 1: Израчунати дужину лука криве `y=\frac{2}{3}x^{3/2}` од координатног почетка до тачке
+                `\left(8,\frac{32\sqrt2}{3}\right)`.</h2>
 
             <p><strong>Решење:</strong> Непосредно на основу формуле добијамо:</p>
 
-            \[l=∫_{0}^8\sqrt(1+\left(x^{1/2}\right)^2)dx=∫_{0}^8\sqrt(1+x)dx=∫_{0}^8\sqrt(1+x)^\frac{1}{2}dx=\frac{(1+x)^\frac{3}{2}}{\frac{3}{2}}|_{0}^8=\frac{52}{3}
+            \[l=∫_{0}^8\sqrt{1+\left(x^{1/2}\right)^2}dx=∫_{0}^8\sqrt{1+x}dx=∫_{0}^8(1+x)^\frac{1}{2}dx=\frac{(1+x)^\frac{3}{2}}{\frac{3}{2}}|_{0}^8=\frac{52}{3}
             \]
             <div class="image-container">
                 <figure class="slika">
@@ -42,11 +43,11 @@
                 </figure>
             </div>
             </p>
-            <h2>Задатак 2: Израчунати дужину лука криве y^2=x^3 од тачке (0,0) до тачке \left(4,8\right).</h2>
+            <h2>Задатак 2: Израчунати дужину лука криве `y^2=x^3` од тачке `(0,0)` до тачке `(4, 8)`.</h2>
 
             <p><strong>Решење:</strong> Непосредно на основу формуле добијамо:</p>
 
-            \[l=∫_{0}^4\sqrt(1+\frac{9x}{4})dx=\frac{4}{9}∫_{0}^{10}
+            \[l=∫_{0}^4\sqrt{1+\frac{9x}{4}}dx=\frac{4}{9}∫_{0}^{10}
             t^2dt=\frac{4}{9}\frac{t^\frac{3}{2}}{\frac{3}{2}}|_{0}^{10}=\frac{8}{27}(10\sqrt10-1) \]
             <div class="image-container">
                 <figure class="slika">
@@ -56,31 +57,30 @@
             </div>
             </p>
 
-            <h2>Задатак 3: Израчунај дужину лука криве\ \ x=\frac{1}{4}y^2-\frac{1}{2}lny\ \ \ \ за 1\le\ y\le\ e.</h2>
+            <h2>Задатак 3: Израчунај дужину лука криве `x = \frac{1}{4}y^2 - \frac{1}{2}\ln y` за `1 \leq y \leq e`.</h2>
 
-            <p><strong>Решење:</strong> Приметимо да је крива облика x=f(y), па се зато границе одређеног интеграла
-                посматрају по променљивој y.</p>
+            <p><strong>Решење:</strong> Приметимо да је крива облика `x=f(y)`, па се зато границе одређеног интеграла
+                посматрају по променљивој `y`.</p>
 
-            \[l=∫_{0}^e\sqrt(1+x^{\prime2})dy=∫_{0}^e\sqrt(1+\frac{1}{4}\left(y-\frac{1}{y}\right)^2)dx=\frac{1}{2}∫_{0}^e\left(\frac{1}{y}+y\right)dy=\frac{1}{4}\left(1+e^2\right).
+            \[l=∫_{0}^e\sqrt{1+x^{\prime2}}dy=∫_{0}^e\sqrt{1+\frac{1}{4}\left(y-\frac{1}{y}\right)^2}dx=\frac{1}{2}∫_{0}^e\left(\frac{1}{y}+y\right)dy=\frac{1}{4}\left(1+e^2\right).
             \]
             <div class="image-container">
                 <figure class="slika">
                     <img class="centered-figure" src="slika3.2.5.png" />
-                    <figcaption>Дужина лука криве за 1\𝑙𝑒 𝑦\𝑙𝑒 𝑒 </figcaption>
+                    <figcaption>Дужина лука криве за `1 \leq y \leq e` </figcaption>
                 </figure>
             </div>
             </p>
-            <h2>Задатак 4: Израчунати дужину лука параболе y=\frac{x^2}{2p}\ на интервалу [0,a],a>0.</h2>
+            <h2>Задатак 4: Израчунати дужину лука параболе `y=\frac{x^2}{2p}` на интервалу `[0,a],a>0`.</h2>
 
             <p><strong>Решење:</strong> </p>
 
-            \[l=∫_{0}^a\sqrt(1+y^{\prime2})dx=\frac{1}{p}∫_{0}^{a}\sqrt(x^2+p^2)dx=\frac{1}{p}(\frac{1}{2}x\sqrt(x^2+p^2)\frac{p^2}{2}ln(x+\sqrt(x^2+p^2))|_{0}^{a}=\frac{a}{2p}\sqrt{a^2+p^2}+\frac{p}{2}ln\frac{a+\sqrt{a^2+p^2}}{p}).
+            \[l=∫_{0}^a\sqrt{1+y^{\prime2}}dx=\frac{1}{p}∫_{0}^{a}\sqrt{x^2+p^2}dx=\frac{1}{p}(\frac{1}{2}x\sqrt{x^2+p^2}+\frac{p^2}{2}ln(x+\sqrt{x^2+p^2})|_{0}^{a}=\frac{a}{2p}\sqrt{a^2+p^2}+\frac{p}{2}ln\frac{a+\sqrt{a^2+p^2}}{p}).
             \]
             <div class="image-container">
                 <figure class="slika">
-                    <iframe src="https://www.geogebra.org/classic/bgvkbtkf?embed" width="800" height="600"
-                        allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
-                    <figcaption> Дужина лука параболе на интервалу [0,a] </figcaption>
+                    <iframe src="https://www.geogebra.org/classic/duadfxvq?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+                    <figcaption> Дужина лука параболе на интервалу `[0,a]` </figcaption>
                 </figure>
             </div>
             </p>
