@@ -1,7 +1,8 @@
 body {
     font-family: Monaco, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    
 }
 
 header {
@@ -50,6 +51,9 @@ main {
     margin-left: inherit;
     border-left: 0px solid black;
     font-family:  'Arial Narrow', Arial, sans-serif;
+    border-left: 1px solid #387C44;
+    line-height: 1.5;
+    padding-left: 70px;
     
 }
 
@@ -82,6 +86,14 @@ nav {
     margin: 0 10px;
     
 
+}
+.navbar {
+   /* position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    z-index: 1000;*/
 }
 
 .logo {
