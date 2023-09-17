@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Monaco, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #007BFF;
+    /*background-color: #4a73598f;*/
+    background-color: #4E9258;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -44,6 +45,27 @@ main {
 
 .example {
     margin-left: 20px;
+    margin-right: 70px;
+    text-align: justify;
+    margin-left: inherit;
+    border-left: 0px solid black;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.example1 {
+    margin-left: 20px;
+    margin-right: 70px;
+    text-align: justify;
+    margin-left: inherit;
+    border-left: 0px solid black;
+    color: #333;
+    border-left: 1px solid #387C44;
+    padding-left: 70px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    line-height: 1.5;
+    
 }
 
 nav {
@@ -51,10 +73,14 @@ nav {
     background-color: #fff;
     padding-left: 30px;
     padding-right: 10px;
-    border-right: 1px solid black;
+    border-right: 0px solid black;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    
 
 }
 
@@ -64,6 +90,7 @@ nav {
 
 .nav-links {
     list-style: none;
+    /*position: fixed;*/
 }
 
 .nav-item a {
