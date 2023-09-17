@@ -87,14 +87,15 @@ nav {
     
 
 }
+/*
 .navbar {
-   /* position: fixed;
+   position: fixed;
     width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
-    z-index: 1000;*/
-}
+    z-index: 1000;
+}*/
 
 .logo {
     display: inline-block;
