@@ -15,7 +15,7 @@ header {
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* max-width: 800px;
     margin: 0 auto;
     padding: 2rem; */
@@ -74,11 +74,12 @@ main {
 }
 
 nav {
-    width: 20%;
+    z-index: 999999;
+    width: 100%;
     background-color: #fff;
     padding-left: 30px;
     padding-right: 10px;
-    border-right: 0px solid black;
+    border-bottom: 1px solid black;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -87,7 +88,7 @@ nav {
 }
 
 section {
-    width: 80%;
+    width: 100%;
 }
 /*
 .navbar {
@@ -113,6 +114,10 @@ section {
     padding: 10px 15px;
     text-decoration: none;
     color: black;
+}
+
+.nav-item {
+    display: inline; 
 }
 
 .nav-item:hover {
